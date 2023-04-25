@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: #c7c4c4;
+}
+.social-menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+}
+.social-menu a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    transition: .3s;
+}
+.social-menu a.facebook {
+    background: #3b5999;
+}
+.social-menu a.instagram {
+    background: #e4405f;
+}
+.social-menu a.twitter {
+    background: #55acee;
+}
+.social-menu a.whatsapp {
+    background: #25D366;
+}
+.social-menu a.linkedin {
+    background: #007785;
+}
+.social-menu a .fa {
+    width: 50px;
+    height: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+.social-menu a:hover {
+    background: #333;
+}
